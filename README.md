@@ -9,6 +9,7 @@ jQuery代码最佳实践：http://gregfranko.com/jquery-best-practices/
 
 
 ---------------Begin AngularJS-------------------
+
 中文学习资料：
 中文资料且成系统的就这么多，优酷上有个中文视频。
 
