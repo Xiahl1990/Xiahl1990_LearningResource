@@ -67,5 +67,5 @@ https://github.com/GoogleChrome/wReader-app  RSS Reader written using AngularJS
 https://github.com/btford/angular-socket-io-im  angular + socket.io 开发的简单的Demo
 
 https://github.com/saberma/19wu 19屋源码 rails + angularjs
-
+http://ipsapro.isoftstone.com/iSurvey/survey.aspx/XYGCNS
 ---------------End AngularJS-------------------
