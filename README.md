@@ -76,5 +76,6 @@ https://github.com/saberma/19wu 19屋源码 rails + angularjs
 --------------Begin 资源搜索网站------------------
 
 cdnjs.com 
+http://www.aseoe.com/api-download/download.html  爱思资源网，各种API下载
 
 --------------End 资源搜索网站--------------------
