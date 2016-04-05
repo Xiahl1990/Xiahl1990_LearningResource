@@ -13,6 +13,8 @@ jQuery代码最佳实践：http://gregfranko.com/jquery-best-practices/
 中文学习资料：
 中文资料且成系统的就这么多，优酷上有个中文视频。
 
+https://segmentfault.com/a/1190000003761054   关于Angular2的一些资料（持续更新中）
+
 http://www.cnblogs.com/lcllao/archive/2012/10/18/2728787.html   翻译的官方的Guide
 
 http://www.ituring.com.cn/minibook/303  翻译的官方的tutorial
