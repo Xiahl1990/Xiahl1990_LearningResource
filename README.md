@@ -79,3 +79,160 @@ cdnjs.com
 http://www.aseoe.com/api-download/download.html  爱思资源网，各种API下载
 
 --------------End 资源搜索网站--------------------
+
+
+-----------------例子----------------
+
+<!doctype html>
+<html>
+<head>
+	<meta charset="utf-8">
+    <title>test</title>
+    <link rel="stylesheet" type="text/css" href="components/Semantic-UI-master/dist/semantic.css">
+
+    <script type="text/javascript" src="src/angular2-polyfills.js"></script>
+    <script type="text/javascript" src="src/system.js"></script>
+    <script type="text/javascript" src="src/typescript.js"></script>
+    <script type="text/javascript" src="src/Rx.js"></script>
+    <script type="text/javascript" src="src/angular2.dev.js"></script>
+    <script type="text/javascript" src="src/http.dev.js"></script>
+    <script type="text/javascript" src="src/router.dev.js"></script>
+    <script type="text/javascript" src="src/tsloader.js"></script>
+    <script type="text/javascript" src="src/system.config.js"></script>
+    <script type="text/javascript" src="components/jquery/jquery.min.js"></script>
+    <script src="components/Semantic-UI-master/dist/semantic.js"></script>
+    <!-- <script type="text/javascript" src="dist/angular2.beta.stack.min.js"></script> -->
+</head>
+<body>
+	<ez-app></ez-app>
+    <script type="text/typescript">
+    	import {Component} from "angular2/core";
+        import {bootstrap} from "angular2/platform/browser";
+
+        class Article { 
+            title: string; 
+            link: string; 
+            votes: number;
+            constructor(title: string, link: string, votes?: number) {
+                this.title = title;
+                this.link = link;
+                this.votes = votes || 0;
+            }
+            voteUp(): void { 
+                this.votes += 1;
+            }
+            voteDown(): void { 
+                this.votes -= 1;
+            }
+            domain(): string { 
+              try {
+                const link: string = this.link.split('//')[1];
+                return link.split('/')[0]; 
+              } catch (err) {
+                  return null;
+              }
+            }
+        }
+
+
+        @Component({
+            selector:"ez-article",
+            inputs: ['article'],
+            host:{
+              class:'row'
+            }
+            template: `
+            <div class="four wide column center aligned votes">
+                <div class="ui statistic">
+                    <div class="value"> {{ article.votes }}
+                    </div>
+                    <div class="label">
+                        Points
+                    </div>
+                </div>
+            </div>
+            <div class="twelve wide column">
+                <a class="ui large header" href="{{ article.link }}"> {{ article.title }}
+                </a>
+                <div class="meta">({{ article.domain() }})</div>
+                <div class="ui big horizontal list voters">
+                    <div class="item">
+                        <a href (click)="voteUp()">
+                            <i class="arrow up icon"></i> upvote
+                        </a>
+                    </div>
+                    <div class="item">
+                        <a href (click)="voteDown()">
+                            <i class="arrow down icon"></i>
+                            downvote
+                        </a>
+                    </div>
+                </div>
+            </div>
+            `
+        })  
+        class ArticleComponent { 
+          article: Article;
+          voteUp(): boolean {
+            this.article.voteUp();
+            return false;
+          }
+          voteDown(): boolean { 
+            this.article.voteDown(); 
+            return false;
+          }
+        }
+
+
+        @Component({
+			selector:"ez-app",
+            directives: [ArticleComponent],
+        	template : `
+            <div class="ui top segment">
+                <form class="ui form ">
+                    <h3 class="ui header">Add a Link</h3>
+                    <div class="field">
+                        <label for="title">Title:</label> 
+                        <input name="title" #newtitle>
+                    </div>
+                    <div class="field">
+                        <label for="link">Link:</label>
+                        <input name="link" #newlink>
+                    </div>
+                    <button (click)="addArticle(newtitle, newlink)" class="ui positive button">
+                        Submit link
+                    </button>
+                </form> 
+            </div>
+            <div class="ui grid posts">
+              <ez-article
+                *ngFor="#article of sortedArticles()"
+                [article]="article">
+              </ez-article>
+            </div>
+                `
+        })
+        class EzApp{
+            articles: Article[];
+            constructor() {
+                this.articles = [
+                  new Article('Angular 2', 'http://angular.io', 1),
+                  new Article('Fullstack', 'http://fullstack.io', 2),
+                  new Article('Angular Homepage', 'http://angular.io', 3),
+                ]; 
+            }
+            addArticle(title: HTMLInputElement, link: HTMLInputElement): void { 
+                console.log(`Adding article title: ${title.value} and link: ${link.value}`);
+                this.articles.push(new Article(title.value, link.value, 0));
+                title.value = '';
+                link.value = '';
+            }
+            sortedArticles(): Article[] {
+                  return this.articles.sort((a: Article, b: Article) => b.votes - a.votes);
+            }
+        }
+        
+        bootstrap(EzApp);
+    </script>
+</body>
+</html>
