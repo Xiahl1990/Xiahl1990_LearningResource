@@ -79,3 +79,10 @@ cdnjs.com
 http://www.aseoe.com/api-download/download.html  爱思资源网，各种API下载
 
 --------------End 资源搜索网站--------------------
+
+
+--------------Begin 影响安全性的编码错误分类--------------------
+
+http://www.hpenterprisesecurity.com/vulncat/en/vulncat/index.html
+
+--------------End   影响安全性的编码错误分类--------------------
