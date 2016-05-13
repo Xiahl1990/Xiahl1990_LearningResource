@@ -19,6 +19,8 @@ https://egghead.io/series/angular-2-fundamentals  Angular2 教程
 
 http://www.angular.live/docs/ts/latest/tutorial/toh-pt4.html ng2中文DOC
 
+http://ng2.zai.io/ ng2中文社区
+
 http://juristr.com/apps/ng2beta/ Angular2时间表
 
 http://www.cnblogs.com/lcllao/archive/2012/10/18/2728787.html   翻译的官方的Guide
