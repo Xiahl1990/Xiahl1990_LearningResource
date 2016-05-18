@@ -100,3 +100,11 @@ http://www.hpenterprisesecurity.com/vulncat/en/vulncat/index.html
 http://gitbook.liuhui998.com/index.html
 
 --------------End git中文版--------------------
+
+--------------Begin Bootstrap插件 --------------
+
+http://demos.krajee.com/
+http://gsgd.co.uk/sandbox/jquery/easing/
+http://medialize.github.com/jQuery-contextMenu/
+
+--------------End Bootstrap插件 --------------
