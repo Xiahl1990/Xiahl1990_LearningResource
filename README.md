@@ -108,3 +108,5 @@ http://gsgd.co.uk/sandbox/jquery/easing/
 http://medialize.github.com/jQuery-contextMenu/
 
 --------------End Bootstrap插件 --------------
+
+http://taobaofed.org/  淘宝前端团队
