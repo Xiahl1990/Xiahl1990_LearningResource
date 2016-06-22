@@ -114,3 +114,5 @@ http://taobaofed.org/  淘宝前端团队
 https://code.google.com/p/chromium/codesearch#chromium/src/cc/debug/debug_colors.cc&q=debug%20borders&sq=package:chromium&l=270  谷歌Debug源码
 
 https://www.nitrous.io/  在线编程平台
+
+https://travis-ci.org/   持续集成(CI)
