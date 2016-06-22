@@ -115,4 +115,4 @@ https://code.google.com/p/chromium/codesearch#chromium/src/cc/debug/debug_colors
 
 https://www.nitrous.io/  在线编程平台
 
-https://travis-ci.org/   持续集成(CI)
+https://travis-ci.org/bd16260490e0bb3415598106ff6460d370edff1e   持续集成(CI)
