@@ -122,3 +122,5 @@ https://design.google.com/devices/ 终端设备参数
 http://pxtoem.com/
 
 https://www.algolia.com/ 静态网站搜索
+
+https://community.algolia.com/docsearch/ doc 搜索
