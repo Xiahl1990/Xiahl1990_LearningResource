@@ -120,3 +120,5 @@ https://travis-ci.org/bd16260490e0bb3415598106ff6460d370edff1e   持续集成(CI
 https://design.google.com/devices/ 终端设备参数
 
 http://pxtoem.com/
+
+https://www.algolia.com/ 静态网站搜索
