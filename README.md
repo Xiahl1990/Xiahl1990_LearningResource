@@ -126,3 +126,5 @@ https://www.algolia.com/ 静态网站搜索
 https://community.algolia.com/docsearch/ doc 搜索
 
 http://www.lijian.net/?p=47 标签云(tagcloud)的球形JQuery插件 
+
+https://etherpad.net/p/sass  记事本！！！！
