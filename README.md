@@ -130,3 +130,5 @@ http://www.lijian.net/?p=47 标签云(tagcloud)的球形JQuery插件
 https://etherpad.net/p/sass  记事本！！！！
 
 http://zh.discovermeteor.com/chapters/getting-started/ meteor中文网站
+
+http://jade-lang.com/ jade模板引擎
