@@ -133,6 +133,7 @@ http://zh.discovermeteor.com/chapters/getting-started/ meteor中文网站
 
 http://jade-lang.com/ jade模板引擎
 
+http://tslang.cn/ typescript中文
 
 ----------------------------名人博客------------------------------------
 
