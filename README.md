@@ -23,6 +23,8 @@ http://ng2.zai.io/ ng2中文社区
 
 http://juristr.com/apps/ng2beta/ Angular2时间表
 
+https://material.google.com/  Angular2组件
+
 http://www.cnblogs.com/lcllao/archive/2012/10/18/2728787.html   翻译的官方的Guide
 
 http://www.ituring.com.cn/minibook/303  翻译的官方的tutorial
@@ -124,3 +126,17 @@ http://pxtoem.com/
 https://www.algolia.com/ 静态网站搜索
 
 https://community.algolia.com/docsearch/ doc 搜索
+
+http://www.lijian.net/?p=47 标签云(tagcloud)的球形JQuery插件 
+
+https://etherpad.net/p/sass  记事本！！！！
+
+http://zh.discovermeteor.com/chapters/getting-started/ meteor中文网站
+
+http://jade-lang.com/ jade模板引擎
+
+http://tslang.cn/ typescript中文
+
+----------------------------名人博客------------------------------------
+
+https://toddmotto.com/
