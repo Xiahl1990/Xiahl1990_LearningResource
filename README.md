@@ -146,3 +146,10 @@ https://toddmotto.com/
 https://course.tianmaying.com/node/lesson/internet-intro#0
 
 ----------------------------NondeJS------------------------------------
+
+----------------------------REST------------------------------------
+
+理解本真的REST架构风格:http://www.infoq.com/cn/articles/understanding-restful-style/
+
+
+----------------------------REST------------------------------------
