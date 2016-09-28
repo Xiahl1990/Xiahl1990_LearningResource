@@ -1,0 +1,40 @@
+/**
+ * Created by xWX313913 on 2016/9/27.
+ */
+var Animal = function () {
+
+}
+Animal.prototype.say = new Function();
+
+var Cat = function () {
+    this.msg = "miao";
+    this.say = function () {
+        console.log(this.msg);
+    }
+}
+Cat.prototype = Animal.prototype;
+
+var Dog = function () {
+    this.msg = "wang";
+    this.say = function () {
+        console.log(this.msg);
+    }
+}
+Dog.prototype = Animal.prototype;
+
+function cls( ) {
+    var animal = new Animal();
+    this.say = function (animal) {
+        animal.say();
+    }
+}
+!function (w) {
+    var _cls = new cls();
+
+    var _dog = new Dog();
+    _cls.say(_dog);
+
+    var _cat = new Cat();
+    _cls.say(_cat);
+
+}(window)
