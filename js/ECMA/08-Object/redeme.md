@@ -26,9 +26,9 @@
 Object.getOwnPropertyNames(Object);
 
 //["length", "name", "arguments", "caller", "prototype", "keys", "create", "defineProperty", "defineProperties", 
-// "freeze", "getPrototypeOf", "setPrototypeOf", "getOwnPropertyDescriptor", "getOwnPropertyNames", "is", "isExtensible",
-// "isFrozen", "isSealed", "preventExtensions", "seal", "getOwnPropertySymbols", "assign", "deliverChangeRecords", 
-// "getNotifier", "observe", "unobserve"]
+// "freeze", "getPrototypeOf", "setPrototypeOf", "getOwnPropertyDescriptor", "getOwnPropertyNames", "is",
+// "isExtensible","isFrozen", "isSealed", "preventExtensions", "seal", "getOwnPropertySymbols", "assign", 
+// "deliverChangeRecords", "getNotifier", "observe", "unobserve"]
 
 Object.getOwnPropertyNames(Object.prototype);
 
