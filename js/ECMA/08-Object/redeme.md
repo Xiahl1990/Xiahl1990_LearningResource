@@ -1,5 +1,7 @@
 # 对象
 
+借博客园网友的图片(http://www.cnblogs.com/Lennyyi/p/4323620.html)
+
 ![JavaScript Object Layout](http://images.cnitblog.com/blog2015/727989/201503/091431518391794.jpg)
 
 1.只有函数才有prototype属性(自己加入的prototype不算)
