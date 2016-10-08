@@ -2,13 +2,13 @@
 
 GitHub上Markdown基本使用 ： http://www.yaosansi.com/post/markdown-on-github/
 
-github上值得关注的前端项目:http://segmentfault.com/a/1190000002804472
+github上值得关注的前端项目 : http://segmentfault.com/a/1190000002804472
 
-jQuery代码最佳实践：http://gregfranko.com/jquery-best-practices/
+jQuery代码最佳实践 ：http://gregfranko.com/jquery-best-practices/
 
-在Sublime Text 3中配置编译和运行Java程序:http://www.open-open.com/lib/view/open1388105023765.html
+在Sublime Text 3中配置编译和运行Java程序 : http://www.open-open.com/lib/view/open1388105023765.html
 
-前端从小白到大神必读资料汇总:http://www.cnblogs.com/jason-swift/archive/2016/01/26/5159744.html
+前端从小白到大神必读资料汇总 : http://www.cnblogs.com/jason-swift/archive/2016/01/26/5159744.html
 
 
 ---------------Begin AngularJS-------------------
@@ -85,32 +85,22 @@ https://github.com/saberma/19wu 19屋源码 rails + angularjs
 
 ---------------End AngularJS-------------------
 
+cdnjs.com  资源搜索网站
 
---------------Begin 资源搜索网站------------------
-
-cdnjs.com 
 http://www.aseoe.com/api-download/download.html  爱思资源网，各种API下载
 
---------------End 资源搜索网站--------------------
+http://www.hpenterprisesecurity.com/vulncat/en/vulncat/index.html 影响安全性的编码错误分类
 
-
---------------Begin 影响安全性的编码错误分类--------------------
-
-http://www.hpenterprisesecurity.com/vulncat/en/vulncat/index.html
-
---------------End   影响安全性的编码错误分类--------------------
-
---------------Begin git中文版--------------------
-
-http://gitbook.liuhui998.com/index.html
-
---------------End git中文版--------------------
+http://gitbook.liuhui998.com/index.html git中文版
 
 --------------Begin Bootstrap插件 --------------
 
 http://demos.krajee.com/
+
 http://gsgd.co.uk/sandbox/jquery/easing/
+
 http://medialize.github.com/jQuery-contextMenu/
+
 
 --------------End Bootstrap插件 --------------
 
@@ -140,39 +130,29 @@ http://jade-lang.com/ jade模板引擎
 
 http://tslang.cn/ typescript中文
 
-----------------------------名人博客------------------------------------
+https://toddmotto.com/ 名人博客
 
-https://toddmotto.com/
-
-----------------------------NondeJS------------------------------------
+----------------------------Begin NondeJS------------------------------------
 
 https://course.tianmaying.com/node/lesson/internet-intro#0
 
-----------------------------NondeJS------------------------------------
-
-----------------------------REST------------------------------------
+----------------------------End NondeJS------------------------------------
 
 理解本真的REST架构风格:http://www.infoq.com/cn/articles/understanding-restful-style/
 
-
-----------------------------REST------------------------------------
-
-----------------------------jQuery------------------------------------
+----------------------------Begin jQuery------------------------------------
 
 http://www.jq22.com/
 
 http://www.w3ctech.com/topic/256 jquery剖析
 
-----------------------------jQuery------------------------------------
+----------------------------End jQuery------------------------------------
 
-----------------------------ES6------------------------------------
+----------------------------Begin ES6------------------------------------
 
 http://exploringjs.com/
 
-----------------------------ES6------------------------------------
+----------------------------End ES6------------------------------------
 
-----------------------------解包------------------------------------
+https://unpkg.com/#/ 解包
 
-https://unpkg.com/#/
-
-----------------------------解包------------------------------------
