@@ -8,7 +8,9 @@
   //["length", "name", "arguments", "caller", "prototype", "isArray", "from", "of", "observe", "unobserve"]
   
   Object.getOwnPropertyNames(Array.prototype) 
-  //["length", "constructor", "toString", "toLocaleString", "join", "pop", "push", "concat", "reverse", "shift", "unshift", "slice", "splice", "sort", "filter", "forEach", "some", "every", "map", "indexOf", "lastIndexOf", "reduce", "reduceRight", "entries", "keys", "copyWithin", "find", "findIndex", "fill"]
+  //["length", "constructor", "toString", "toLocaleString", "join", "pop", "push", "concat", "reverse", 
+  // "shift", "unshift", "slice", "splice", "sort", "filter", "forEach", "some", "every", "map", "indexOf",
+  // "lastIndexOf", "reduce", "reduceRight", "entries", "keys", "copyWithin", "find", "findIndex", "fill"]
 
 ```
   
