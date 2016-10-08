@@ -10,8 +10,8 @@
 
 4.Object对象是由Function创建的，所以Object的__proto__指向Function.prototype
 
-4.Function.prototype对象是由Object对象创建的，所以该对象的__proto__指向Object.prototype
+5.Function.prototype对象是由Object对象创建的，所以该对象的__proto__指向Object.prototype
 
-5.Object.prototype对象是js的最终对象，所以该对象的__proto__为null
+6.Object.prototype对象是js的最终对象，所以该对象的__proto__为null
 
-4.可见，函数创造一切，一切皆为对象！
+7.可见，函数创造一切，一切皆为对象！
