@@ -154,5 +154,5 @@ http://exploringjs.com/
 
 ----------------------------End ES6------------------------------------
 
-https://unpkg.com/#/ 解包
+https://unpkg.com/#/ 在线库解包
 
