@@ -2,7 +2,7 @@
 
 ## 查看Array的属性和方法
 
-```
+```javascript
 
   Object.getOwnPropertyNames(Array) //["length", "name", "arguments", "caller", "prototype", "isArray", "from", "of", "observe", "unobserve"]
   
