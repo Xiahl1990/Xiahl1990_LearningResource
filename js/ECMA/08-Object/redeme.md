@@ -8,4 +8,10 @@
 
 3.Function对象是由Function创建的，所以Function的__proto__指向本身的prototype
 
+4.Object对象是由Function创建的，所以Object的__proto__指向Function.prototype
+
+4.Function.prototype对象是由Object对象创建的，所以该对象的__proto__指向Object.prototype
+
+5.Object.prototype对象是js的最终对象，所以该对象的__proto__为null
+
 4.可见，函数是一等公民，万物皆对象！
