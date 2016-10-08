@@ -1,3 +1,11 @@
 # 对象
 
 ![JavaScript Object Layout](http://images.cnitblog.com/blog2015/727989/201503/091431518391794.jpg)
+
+1.只有函数才有prototype属性
+
+2.__proto__属性在对象创建的时候自动生成，并指向创建该对象的对象的prototype
+
+3.Function对象是由Function创建的，所以Function的__proto__指向本身的prototype
+
+4.可见，函数是一等公民，万物皆对象！
