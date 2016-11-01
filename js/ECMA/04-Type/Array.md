@@ -9,8 +9,9 @@
   
   Object.getOwnPropertyNames(Array.prototype) 
   //["length", "constructor", "toString", "toLocaleString", "join", "pop", "push", "concat", "reverse", 
-  // "shift", "unshift", "slice", "splice", "sort", "filter", "forEach", "some", "every", "map", "indexOf",
-  // "lastIndexOf", "reduce", "reduceRight", "entries", "keys", "copyWithin", "find", "findIndex", "fill"]
+  // "shift", "unshift", "slice", "splice", "sort", 
+  // "filter"(ES5), "forEach"(ES5), "some"(ES5), "every"(ES5), "map"(ES5), "indexOf"(ES5),"lastIndexOf"(ES5), "reduce"(ES5),  
+  // "reduceRight"(ES5), "entries", "keys", "copyWithin", "find", "findIndex", "fill"]
 
 ```
 
