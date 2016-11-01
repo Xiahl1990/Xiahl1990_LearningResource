@@ -10,7 +10,7 @@ Object.getOwnPropertyNames(Function);
 
 Object.getOwnPropertyNames(Function.prototype);
 
-//["length", "name", "arguments", "caller", "constructor", "bind", "toString", "call", "apply"]
+//["length", "name", "arguments", "caller", "constructor", "bind"(ES5), "toString", "call", "apply"]
 
 ```
 
