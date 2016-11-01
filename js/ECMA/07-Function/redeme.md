@@ -63,11 +63,17 @@ if (!Function.prototype.bind) { 
 ### call,apply 方法的作用与实例
 
 作用：call和apply是为了动态改变this而出现的，当一个object没有某个方法，但是其他的有，我们可以借助call或apply用其它对象的方法来操作。
+
 差异：
+
 1.call:  需要把参数按顺序传递进去；
+
          参数是明确知道数量时；
+         
 2.apply: 把参数放在数组里；
+
          参数不确定的时候，把参数 push 进数组传递进去。（函数内部也可以通过 arguments 这个数组来便利所有的参数）
+         
 
 ``` javascript
 function Animal(){
