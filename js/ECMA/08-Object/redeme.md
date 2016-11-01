@@ -25,9 +25,9 @@
 ```
 Object.getOwnPropertyNames(Object);
 
-//["length", "name", "arguments", "caller", "prototype", "keys", "create", "defineProperty", "defineProperties", 
-// "freeze", "getPrototypeOf", "setPrototypeOf", "getOwnPropertyDescriptor", "getOwnPropertyNames", "is",
-// "isExtensible","isFrozen", "isSealed", "preventExtensions", "seal", "getOwnPropertySymbols", "assign", 
+//["length", "name", "arguments", "caller", "prototype", "keys"(ES5), "create"(ES5), "defineProperty"(ES5), "defineProperties"(ES5), 
+// "freeze"(ES5), "getPrototypeOf"(ES5), "setPrototypeOf", "getOwnPropertyDescriptor"(ES5), "getOwnPropertyNames"(ES5), "is",
+// "isExtensible"(ES5),"isFrozen"(ES5), "isSealed"(ES5), "preventExtensions"(ES5), "seal"(ES5), "getOwnPropertySymbols", "assign", 
 // "deliverChangeRecords", "getNotifier", "observe", "unobserve"]
 
 Object.getOwnPropertyNames(Object.prototype);
@@ -36,3 +36,31 @@ Object.getOwnPropertyNames(Object.prototype);
 // "__defineGetter__", "__lookupGetter__", "__defineSetter__", "__lookupSetter__", "__proto__"]
 
 ```
+
+ES5:
+
+  1.Object.getPrototypeOf
+  
+  2.Object.getOwnPropertyDescriptor
+  
+  3.Object.getOwnPropertyNames
+  
+  4.Object.create
+  
+  5.Object.defineProperty
+  
+  6.Object.defineProperties
+  
+  7.Object.seal
+  
+  8.Object.freeze
+  
+  9.Object.preventExtensions
+  
+  10.Object.isSealed
+  
+  11.Object.isFrozen
+  
+  12.Object.isExtensible
+  
+  13.Object.keys
