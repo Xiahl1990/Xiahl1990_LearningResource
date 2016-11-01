@@ -47,6 +47,107 @@ ES5:
   
   4.Object.create
   
+  定义：Object.create(prototype, descriptors) ：创建一个具有指定原型且可选择性地包含指定属性的对象
+
+  参数:
+  
+  prototype 必需。  要用作原型的对象。 可以为 null。
+  
+  descriptors 可选。 包含一个或多个属性描述符的 JavaScript 对象。
+  
+  ```javascript
+  /* 带原型链
+   *
+  */
+  var pt = {
+    say : function(){
+        console.log('saying!');    
+    }
+  }
+    
+  var o = Object.create(pt);
+    
+  console.log('say' in o); // true
+  console.log(o.hasOwnProperty('say')); // false
+  
+  /* 没有原型链的空对象
+   *
+  */
+  var o1 = Object.create(null);
+  console.dir(o1); // object[ No Properties ]
+  
+  /* 创建没有原型链的但带descriptors的对象
+   *
+  */
+  var o2 = Object.create(null, {
+      size: {
+          value: "large",
+          enumerable: true
+      },
+      shape: {
+          value: "round",
+          enumerable: true
+      }    
+  });
+    
+  console.log(o2.size);    // large
+  console.log(o2.shape);     // round
+  console.log(Object.getPrototypeOf(o2));     // null
+  
+  /* 创建带属性带原型链的对象
+   *
+  */
+  var pt = {
+        say : function(){
+            console.log('saying!');    
+        }
+    }
+
+  var o3 = Object.create(pt, {
+      size: {
+          value: "large",
+          enumerable: true
+      },
+      shape: {
+          value: "round",
+          enumerable: true
+      }    
+  });
+    
+  console.log(o3.size);    // large
+  console.log(o3.shape);     // round
+  console.log(Object.getPrototypeOf(o3));     // {say:...}
+  
+  /* 实现继承
+   *
+  */
+  //Shape - superclass
+  function Shape() {
+    this.x = 0;
+    this.y = 0;
+  }
+
+  Shape.prototype.move = function(x, y) {
+      this.x += x;
+      this.y += y;
+      console.info("Shape moved.");
+  };
+
+  // Rectangle - subclass
+  function Rectangle() {
+    Shape.call(this); //call super constructor.
+  }
+
+  Rectangle.prototype = Object.create(Shape.prototype);
+
+  var rect = new Rectangle();
+
+  console.log(rect instanceof Rectangle); //true.
+  console.log(rect instanceof Shape); //true.
+
+  rect.move(); //"Shape moved."
+  ```
+  
   5.Object.defineProperty
   
   6.Object.defineProperties
