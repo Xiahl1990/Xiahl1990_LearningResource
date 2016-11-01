@@ -60,3 +60,22 @@ if (!Function.prototype.bind) { 
 }
 ```
 
+### call,apply 方法的作用与实例
+
+作用：call和apply是为了动态改变this而出现的，当一个object没有某个方法，但是其他的有，我们可以借助call或apply用其它对象的方法来操作。
+
+``` javascript
+function Animal(){
+
+}
+Animal.prototype={
+  name:"dog",
+  say: function(){
+    alert("I am "+this.name);
+  }
+}
+var dog = new Animal();
+dog.say();
+//假设有一个对象cat = {name:"cat"}也想调用say方法，可以如下：
+dog.say.call(cat);
+```
