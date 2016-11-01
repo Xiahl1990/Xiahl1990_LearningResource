@@ -1,0 +1,9 @@
+# 调试技能
+
+## console.dir() 和 console.dirxml()
+
+1.介绍：在调试JavaScript程序时，有时需要dump某些对象的详细信息。通过手工编写JavaScript代码可以完成这一工作：针对对象的属性进行循环，
+  
+将循环到的每一个属性值打印出来；可见，这一过程是比较繁琐的。在具备调试工具的浏览器上，这一工作可以通过console.dir()语句来方便的完成。
+
+2.区别：console.dir()打印js对象,console.dirxml()打印DOM对象
