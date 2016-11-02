@@ -41,6 +41,8 @@ ES5:
 
   1.Object.getPrototypeOf
   
+  参考：https://developer.mozilla.org/zh-CN/docs/Web/JavaScript/Reference/Global_Objects/Object/GetPrototypeOf
+  
   2.Object.getOwnPropertyDescriptor
   
   3.Object.getOwnPropertyNames
