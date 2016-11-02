@@ -26,13 +26,13 @@
 Object.getOwnPropertyNames(Object);
 
 //["length", "name", "arguments", "caller", "prototype", "keys"(ES5), "create"(ES5), "defineProperty"(ES5), "defineProperties"(ES5), 
-// "freeze"(ES5), "getPrototypeOf"(ES5), "setPrototypeOf", "getOwnPropertyDescriptor"(ES5), "getOwnPropertyNames"(ES5), "is",
-// "isExtensible"(ES5),"isFrozen"(ES5), "isSealed"(ES5), "preventExtensions"(ES5), "seal"(ES5), "getOwnPropertySymbols", "assign", 
-// "deliverChangeRecords", "getNotifier", "observe", "unobserve"]
+// "freeze"(ES5), "getPrototypeOf"(ES5), "setPrototypeOf"(ES6), "getOwnPropertyDescriptor"(ES5), "getOwnPropertyNames"(ES5), "is"(ES6),
+// "isExtensible"(ES5),"isFrozen"(ES5), "isSealed"(ES5), "preventExtensions"(ES5), "seal"(ES5), "getOwnPropertySymbols"(ES6), 
+// "assign"(ES6), "deliverChangeRecords", "getNotifier"(废弃), "observe"(废弃), "unobserve"(废弃)]
 
 Object.getOwnPropertyNames(Object.prototype);
 
-//["constructor", "toString", "toLocaleString", "valueOf", "hasOwnProperty", "isPrototypeOf", "propertyIsEnumerable", 
+//["constructor", "toString", "toLocaleString", "valueOf", "hasOwnProperty"(ES3), "isPrototypeOf"(ES3), "propertyIsEnumerable"(ES3), 
 // "__defineGetter__", "__lookupGetter__", "__defineSetter__", "__lookupSetter__", "__proto__"]
 
 ```
@@ -171,3 +171,15 @@ ES5:
   12.Object.isExtensible
   
   13.Object.keys
+  
+  ES6:
+  
+  1.Object.setPrototypeOf
+  
+  2.Object.is
+  
+  3.Object.getOwnPropertySymbols
+  
+  4.Object.assign
+  
+  
