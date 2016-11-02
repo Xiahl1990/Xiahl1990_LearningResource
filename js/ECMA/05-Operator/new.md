@@ -9,11 +9,13 @@
 ```
 // 我们执行如下代码
 var obj = new Base();
+```
 
-// 这样代码的结果是什么，我们在Javascript引擎中看到的对象模型是：
+这样代码的结果是什么，我们在Javascript引擎中看到的对象模型是：
 
 ![JavaScript Example for New](http://coolshell.cn/wp-content/uploads/2012/02/joo_3.png)
 
+```
 // new操作符具体干了什么呢?其实很简单，就干了三件事情。
 var obj  = {};
 obj.__proto__ = Base.prototype;
