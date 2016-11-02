@@ -36,7 +36,12 @@ Symbol("foo") === Symbol("foo"); // false
 // 下面使用 new 运算符的语法将会抛出一个 TypeError 错误：
 
 var sym = new Symbol(); // TypeError
-//这会阻止创建一个显式的符号包装器对象而不是一个新的符号值。围绕原始数据类型创建一个显式包装器对象从 ECMAScript 6 开始不再被支持。 然而，现有的原始包装器对象，如 new Boolean、 new String以及new Number因为遗留原因仍可被创建。
+// 这会阻止创建一个显式的符号包装器对象而不是一个新的符号值。
+// 围绕原始数据类型创建一个显式包装器对象从 ECMAScript 6 开始不再被支持。
+// 然而，现有的原始包装器对象，如 new Boolean、 new String以及new Number因为遗留原因仍可被创建。
+// 注意，Symbol函数前不能使用new命令，否则会报错。
+// 这是因为生成的Symbol是一个原始类型的值，不是对象。也就是说，由于Symbol值不是对象，所以不能添加属性。
+// 基本上，它是一种类似于字符串的数据类型。
 
 //如果你非常想创建一个符号包装对象(Symbol wrapper object)，你可以使用 Object() 函数：
 
