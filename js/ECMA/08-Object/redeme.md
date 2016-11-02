@@ -45,7 +45,11 @@ ES5:
   
   2.Object.getOwnPropertyDescriptor
   
+  参考：https://developer.mozilla.org/zh-CN/docs/Web/JavaScript/Reference/Global_Objects/Object/getOwnPropertyDescriptor
+  
   3.Object.getOwnPropertyNames
+  
+  参考：https://developer.mozilla.org/zh-CN/docs/Web/JavaScript/Reference/Global_Objects/Object/getOwnPropertyNames
   
   4.Object.create
   
