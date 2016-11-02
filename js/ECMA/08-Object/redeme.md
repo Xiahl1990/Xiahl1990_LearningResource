@@ -37,7 +37,7 @@ Object.getOwnPropertyNames(Object.prototype);
 
 ```
 
-ES5:
+### ES5:
 
   1.Object.getPrototypeOf
   
@@ -172,7 +172,7 @@ ES5:
   
   13.Object.keys
   
-  ES6:
+  ### ES6:
   
   1.Object.setPrototypeOf
   
