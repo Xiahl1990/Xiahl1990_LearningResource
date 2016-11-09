@@ -1,3 +1,7 @@
+# 引用
+
+https://developer.mozilla.org/zh-CN/docs/Web/JavaScript/Reference/Operators/in
+
 # 定义
 
 如果指定的属性存在于指定的对象中，则 in 运算符会返回 true。
