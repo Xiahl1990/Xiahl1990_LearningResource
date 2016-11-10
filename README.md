@@ -130,7 +130,6 @@ http://jade-lang.com/ jade模板引擎
 
 http://tslang.cn/ typescript中文
 
-https://toddmotto.com/ 名人博客
 
 ----------------------------Begin NondeJS------------------------------------
 
@@ -162,3 +161,10 @@ http://exploringjs.com/
 
 https://unpkg.com/#/ 在线库解包
 
+----------------------------Begin 名人博客------------------------------------
+
+http://www.adequatelygood.com/
+
+https://toddmotto.com/ 
+
+----------------------------End 名人博客------------------------------------
