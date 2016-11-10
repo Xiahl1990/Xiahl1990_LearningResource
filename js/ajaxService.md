@@ -1,3 +1,4 @@
+```
 // Service API
 function ajaxService(option){
     var _op = $.extend(true, {}, (typeof option === "object" && option));
@@ -44,3 +45,4 @@ function ajaxService(option){
         }
     })
 }
+```
