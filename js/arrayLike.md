@@ -1,5 +1,6 @@
-类数组 (引用 https://segmentfault.com/a/1190000000415572)
+# 类数组 (引用 https://segmentfault.com/a/1190000000415572)
 
+```
 /**
  * 类数组定义:
  * 1.拥有length属性;
@@ -74,3 +75,4 @@
           return res;
       }
    };
+```
