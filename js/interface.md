@@ -1,3 +1,4 @@
+```
 /**
  * Created by Xiahl1990 on 2016/9/27.
  * js接口的模拟实现
@@ -42,3 +43,4 @@ function cls( ) {
     _cls.say(_cat);
 
 }(window)
+```
