@@ -169,4 +169,6 @@ http://www.adequatelygood.com/
 
 https://toddmotto.com/ 
 
+Hadoop: http://www.cnblogs.com/laov/category/529654.html
+
 ----------------------------End 名人博客------------------------------------
