@@ -153,6 +153,8 @@ http://www.w3ctech.com/topic/256 jquery剖析
 
 http://www.zhangxinxu.com/wordpress/2012/01/introducing-ecmascript-5-1/
 
+http://yanhaijing.com/es5/#null
+
 ----------------------------End ES5------------------------------------
 
 ----------------------------Begin ES6------------------------------------
