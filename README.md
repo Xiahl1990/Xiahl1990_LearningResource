@@ -173,6 +173,8 @@ https://toddmotto.com/
 
 Hadoop: http://www.cnblogs.com/laov/category/529654.html
 
+https://segmentfault.com/u/kra/articles?page=2
+
 ----------------------------End 名人博客------------------------------------
 
 ----------------------------Begin 软件下载资源------------------------------------
