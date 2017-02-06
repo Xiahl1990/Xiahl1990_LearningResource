@@ -175,6 +175,8 @@ Hadoop: http://www.cnblogs.com/laov/category/529654.html
 
 https://segmentfault.com/u/kra/articles?page=2
 
+RequireJS define 详细介绍 https://my.oschina.net/heweipo/blog/509554
+
 ----------------------------End 名人博客------------------------------------
 
 ----------------------------Begin 软件下载资源------------------------------------
