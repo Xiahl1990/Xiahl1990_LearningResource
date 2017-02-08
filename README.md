@@ -183,4 +183,6 @@ RequireJS define 详细介绍 https://my.oschina.net/heweipo/blog/509554
 
 谷歌浏览器：http://www.googlechromer.cn/index.html
 
+原型设计：Balsamiq_Mockups_3.1.4 依赖于AdobeAIRInstaller
+
 ----------------------------End 软件下载资源------------------------------------
