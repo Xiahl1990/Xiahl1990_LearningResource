@@ -44,6 +44,8 @@ https://github.com/basestyle/angularjs-cn  "AngularJS"中译本 -《AngularJS》
 
 https://github.com/jmcunningham/AngularJS-Learning/blob/master/CN-CN.md  github上的一个资料整理
 
+http://www.jb51.net/article/58229.htm angularjs指令中的compile与link函数详解
+
 工具：
 AngularJS WebInspector Extension for Chrome
 
