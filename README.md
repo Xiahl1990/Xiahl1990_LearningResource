@@ -47,6 +47,7 @@ https://github.com/jmcunningham/AngularJS-Learning/blob/master/CN-CN.md  github�
 
 http://www.jb51.net/article/58229.htm angularjs指令中的compile与link函数详解
 
+http://manual.51yip.com/angularjs/  手册
 
 工具：
 AngularJS WebInspector Extension for Chrome
