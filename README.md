@@ -191,3 +191,7 @@ RequireJS define 详细介绍 https://my.oschina.net/heweipo/blog/509554
 原型设计：Balsamiq_Mockups_3.1.4 依赖于AdobeAIRInstaller
 
 ----------------------------End 软件下载资源------------------------------------
+
+切图：
+
+http://www.cnblogs.com/xiongmanli/p/6079172.html
