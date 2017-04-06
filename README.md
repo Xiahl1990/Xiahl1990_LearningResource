@@ -199,3 +199,5 @@ http://www.cnblogs.com/xiongmanli/p/6079172.html
 js读取本地图片并显示:
 
 http://blog.csdn.net/qiulei_21/article/details/52785191
+
+http://youmightnotneedjquery.com/
